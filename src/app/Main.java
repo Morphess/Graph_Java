@@ -22,7 +22,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Has edge 1-2: " + graph.hasEdge(1, 2));
-        System.out.println("Has vertex 5: " + graph.hasEdge(3, 4));
+        System.out.println("Has edge 3-4: " + graph.hasEdge(3, 4));
         System.out.println();
 
         graph.removeEdge(1, 2);
